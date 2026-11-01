@@ -1,0 +1,143 @@
+{
+  "Базовый": {
+    "scenario": "Базовый",
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "risk_limits": [
+      1.46,
+      1.33,
+      1.36
+    ],
+    "iterations": 5,
+    "weights": [
+      0.0,
+      0.22857142857142945,
+      0.45,
+      0.3214285714285716,
+      0.0,
+      0.0
+    ],
+    "yield_pct": 9.890557142857151,
+    "income_rub": 98905.57142857151,
+    "check": {
+      "ok": true,
+      "violations": {
+        "budget": 1.1102230246251565e-15,
+        "lower_bounds": 0.0,
+        "upper_bounds": 0.0,
+        "risk_limits": 1.3322676295501878e-15
+      },
+      "risk_values": [
+        1.4600000000000013,
+        1.0935714285714297,
+        1.2392857142857159
+      ],
+      "expected_yield_pct": 9.890557142857151,
+      "expected_income_rub": 98905.57142857151
+    },
+    "shadow_prices_per_risk_unit": [
+      5.877142857142853,
+      0.0,
+      0.0
+    ],
+    "slack": [
+      0.0,
+      0.2364285714285701,
+      0.12071428571428555
+    ]
+  },
+  "Дефицитный": {
+    "scenario": "Дефицитный",
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "risk_limits": [
+      1.168,
+      1.33,
+      1.36
+    ],
+    "iterations": 2,
+    "weights": [
+      0.22333333333333377,
+      0.3266666666666662,
+      0.45,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "yield_pct": 8.148556666666666,
+    "income_rub": 81485.56666666667,
+    "check": {
+      "ok": true,
+      "violations": {
+        "budget": 0.0,
+        "lower_bounds": 0.0,
+        "upper_bounds": 0.0,
+        "risk_limits": 0.0
+      },
+      "risk_values": [
+        1.168,
+        1.0766666666666669,
+        1.1303333333333332
+      ],
+      "expected_yield_pct": 8.148556666666666,
+      "expected_income_rub": 81485.56666666667
+    },
+    "shadow_prices_per_risk_unit": [
+      6.263333333333333,
+      0.0,
+      0.0
+    ],
+    "slack": [
+      0.0,
+      0.2533333333333332,
+      0.2296666666666669
+    ]
+  },
+  "Стрессовый": {
+    "scenario": "Стрессовый",
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "risk_limits": [
+      1.168,
+      1.33,
+      1.088
+    ],
+    "iterations": 4,
+    "weights": [
+      0.1628571428571436,
+      0.20571428571428532,
+      0.45,
+      0.0,
+      0.18142857142857116,
+      0.0
+    ],
+    "yield_pct": 8.109428571428571,
+    "income_rub": 81094.28571428572,
+    "check": {
+      "ok": true,
+      "violations": {
+        "budget": 0.0,
+        "lower_bounds": 0.0,
+        "upper_bounds": 0.0,
+        "risk_limits": 0.0
+      },
+      "risk_values": [
+        1.168,
+        0.9738571428571434,
+        1.088
+      ],
+      "expected_yield_pct": 8.109428571428571,
+      "expected_income_rub": 81094.28571428572
+    },
+    "shadow_prices_per_risk_unit": [
+      5.6471428571428595,
+      0.0,
+      0.924285714285709
+    ],
+    "slack": [
+      0.0,
+      0.35614285714285665,
+      0.0
+    ]
+  }
+}

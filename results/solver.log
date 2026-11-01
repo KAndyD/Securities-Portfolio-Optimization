@@ -1,0 +1,6 @@
+Python: 3.14.7
+SciPy: 1.17.0
+Метод: HiGHS dual simplex (highs-ds); presolve=true
+Базовый: Optimization terminated successfully. (HiGHS Status 7: Optimal); simplex_iterations=5
+Дефицитный: Optimization terminated successfully. (HiGHS Status 7: Optimal); simplex_iterations=2
+Стрессовый: Optimization terminated successfully. (HiGHS Status 7: Optimal); simplex_iterations=4

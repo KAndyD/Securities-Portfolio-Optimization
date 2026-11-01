@@ -1,0 +1,11 @@
+test_data_reproducible (test_solution.PortfolioTests.test_data_reproducible) ... ok
+test_infeasible_risk_is_reported (test_solution.PortfolioTests.test_infeasible_risk_is_reported) ... ok
+test_no_negative_risk_slack (test_solution.PortfolioTests.test_no_negative_risk_slack) ... ok
+test_optimum_and_independent_check (test_solution.PortfolioTests.test_optimum_and_independent_check) ... ok
+test_reject_invalid_allocation (test_solution.PortfolioTests.test_reject_invalid_allocation) ... ok
+test_stricter_risk_cannot_increase_return (test_solution.PortfolioTests.test_stricter_risk_cannot_increase_return) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.009s
+
+OK

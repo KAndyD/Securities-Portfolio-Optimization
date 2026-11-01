@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "violations": {
+    "budget": 1.1102230246251565e-15,
+    "lower_bounds": 0.0,
+    "upper_bounds": 0.0,
+    "risk_limits": 1.3322676295501878e-15
+  },
+  "risk_values": [
+    1.4600000000000013,
+    1.0935714285714297,
+    1.2392857142857159
+  ],
+  "expected_yield_pct": 9.890557142857151,
+  "expected_income_rub": 98905.57142857151
+}
